@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">    
+    <title>Formulário | Alpha EdTech</title>
+    <link rel="shortcut icon" href="https://static.wixstatic.com/media/3d3594_71efe0bedca94d52afdf1a69d964da18~mv2.png/v1/fill/w_32%2Ch_32%2Clg_1%2Cusm_0.66_1.00_0.01/3d3594_71efe0bedca94d52afdf1a69d964da18~mv2.png">    
+</head>
+<body>
+    <header style="text-align: center;">
+        <h1>Formulário Alpha EdTech</h1>
+        <h2>Formulário para cadastro da Alpha EdTech</h2>        
+    </header>
+    <section>
+        <form action="https://www.algumarota.com" method="post">
+            <div style="width: 450px; display: inline-block; padding-right: 30px;">
+                <fieldset>
+                    <legend>Dados Pessoais</legend>
+
+                    <label for="name">Nome</label> </br>
+                    <input type="text" id="name" /> </br>
+
+                    <label for="age">Data de Nascimento</label> </br>
+                    <input type="date" id="age" /> </br>
+
+                    <label for="cpf">CPF</label> </br>
+                    <input type="text" id="cpf" /> </br>
+
+                    <label for="adress">Endereço</label> </br>
+                    <input type="text" id="adress" />
+                </fieldset>
+                <fieldset>
+                    <legend>Contato</legend>
+                    <label for="email">E-mail</label> </br>
+                    <input type="email" id="email" /> </br>
+                
+                    <label for="phone">Telefone</label> </br>
+                    <input type="number" id="phone" /> </br>
+                
+                    <label for="linkedin">Linkedin</label> </br>
+                    <input type="text" id="linkedin" /> </br>
+                </fieldset>
+            </div>
+            <div style="width: 450px; padding-right: 30px; display: inline-block;">
+                <fieldset>
+                    <legend>Cadastrar Conta</legend>
+                    <label for="login">Login</label> 
+                    <input class="login" type="text" id="login" /> </br>
+                
+                    <label for="password">Senha</label>
+                    <input class="login" type="password" id="password" /> </br>
+                    
+                    <input class="radio" type="checkbox" id="connect" value="true" />
+                    <label for="connect">Me manter conectado</label>                
+                </fieldset>
+                <div id="down">
+                    <p>Como chegou até a Alpha EdTech?</p>
+                    <textarea id="desc" type="textarea" name="description"></textarea> </br>
+
+                    <p>Qual área tem desejo de seguir?</p>
+                    <input class="radio" type="radio" id="back" value="Back-end" name="skill" />
+                    <label for="back"><i>Back-end</i></label> </br>
+
+                    <input class="radio" type="radio" id="front" value="Front-end" name="skill" />
+                    <label for="front"><i>Front-end</i></label></br>
+
+                    <input class="radio" type="radio" id="full" value="FullStack" name="skill" />
+                    <label for="full"><i>Full Stack</i></label>                    
+
+                    <p>Você indicaria a Alpha EdTech?    
+                        <select>
+                        <option>Sim</option>
+                        <option>Talvez</option>
+                        <option>Não</option>
+                        </select>
+                    </p>
+                </div>
+            </div>
+            <button id="bt" type="submit">Enviar</button>
+        </form>
+    </section>   
+    <footer>
+        <p id="rodap">&copy;AlanDouglasASouza</p>
+        <nav>
+            <a href="https://www.alphaedtech.org.br" target="_blank">Alpha EdTech</a> |
+            <a href="https://www.alphalumen.org.br" target="_blank">Alpha Lumen</a>
+        </nav>
+    </footer>
+    
+    <!-- Estilização da pagina -->
+    <style>
+        input {
+            width: 400px;
+            margin-bottom: 10px;
+        }
+    
+        fieldset {
+            margin: 18px;
+            padding: 10px;
+        }
+    
+        .login {
+            width: 300px;
+        }
+    
+        .radio {
+            width: auto;
+        }
+    
+        textarea {
+            width: 405px;
+            height: 100px;
+            margin-top: -15px;
+        }
+    
+        section {
+            margin: 0 auto;
+            width: 80%;
+        }
+    
+        div#down {
+            margin-left: 20px;
+            margin-top: 40px;
+        }
+    
+        button#bt {
+            margin-left: 45%;
+            width: 100px;
+            height: 35px;
+            font-size: 18pt;
+        }
+    
+        a {
+            text-decoration: none;
+            color: rgb(51, 49, 49);
+        }
+    
+        footer {
+            text-align: center;
+            border-top: 1px solid black;
+            margin-top: 20px;
+        }
+    </style>
+</body>
+</html>
