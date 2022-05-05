@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Iframe HTML | Alpha Edtech</title>
+    <link rel="shortcut icon" href="https://static.wixstatic.com/media/3d3594_71efe0bedca94d52afdf1a69d964da18~mv2.png/v1/fill/w_32%2Ch_32%2Clg_1%2Cusm_0.66_1.00_0.01/3d3594_71efe0bedca94d52afdf1a69d964da18~mv2.png" />
+    <style>
+        body{
+            width: 100%;
+        }
+        .header-nav {           
+            height: 60px;
+            background-color: rgb(148, 147, 147);
+            margin-top: -10px;
+            margin-left: -10px;                     
+        }
+        .menu {            
+            padding-left: 20px;
+            padding-top: 5px;
+        }
+        .container {
+            text-align: center;
+        }
+        .frame {
+            border: 1px solid black;
+            border-radius: 4px;
+            padding: 10px;
+        }
+        .end {
+            text-align: center;
+            border-top: 1px solid black;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header class="header-nav">
+        <nav>
+            <div class="menu">
+            <a href="htpps://www.alphaedtech.org.br" target="_blank"><img style="width: 80px; height: 45px; background-color: black; border-radius: 5px;" alt="Logo da Alpha EdTech" src="https://static.wixstatic.com/media/3d3594_6a16c57cf43a45148ba18da30afb4ad7~mv2.png/v1/fill/w_196,h_105,al_c,usm_0.66_1.00_0.01,enc_auto/LOGO%201.png" /></a>
+            <a href="https://www.linkedin.com/in/alan-douglas-artigas-souza" target="_blank"><img src="https://img.icons8.com/ios-filled/50/000000/linkedin.png" alt="Logo Linkedin" /></a>
+            <a href="https://github.com/AlanDouglasASouza"><img id="github" src="https://img.icons8.com/fluency-systems-regular/48/000000/github.png"></img></a>
+            </div>
+        </nav>
+    </header>
+    <section class="container">
+        <h1 style="font-size: 20pt;">Funcionalidade do Iframe</h1>
+        <h2>O Iframe é uma tag muito ultilizada em paginas web</h2>
+        <p>Veja um banner de um formulário de satisfação da Alpha EdTech, usando o iframe.</p>
+        <iframe class="frame" src="../form.html" width="500" height="400" allowfullscreen frameborder="1" scrolling="yes" sandbox="">
+        </iframe>
+    </section>
+    <footer class="end">
+        <p id="rodap">&copy;AlanDouglasASouza</p>
+    </footer>
+</body>
+</html>
