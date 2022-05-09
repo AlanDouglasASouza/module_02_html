@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">    
+    <title>Canvas | Alpha Edtech</title>
+    <link rel="shortcut icon" href="https://static.wixstatic.com/media/3d3594_71efe0bedca94d52afdf1a69d964da18~mv2.png/v1/fill/w_32%2Ch_32%2Clg_1%2Cusm_0.66_1.00_0.01/3d3594_71efe0bedca94d52afdf1a69d964da18~mv2.png">
+</head>
+<body style="text-align: center;">
+    <header>
+        <h1>Usando elemento Canvas</h1>
+    </header>
+    <canvas id="canvas-tag" width="600" height="400" style="border:2px solid rgb(94, 92, 92);">
+        <p>Seu navegador não possúi suporte para elementos canvas.</p>
+    </canvas>
+    <script>
+        const canvas = document.getElementById('canvas-tag');
+        const ctx = canvas.getContext('2d');
+        const svg = new Image();
+        svg.src = "../assets/images/bandeira-alpha.svg";
+        svg.addEventListener('load', () => {
+                ctx.drawImage(svg, 80, 40)
+            });
+    </script>
+    
+</body>
+</html>

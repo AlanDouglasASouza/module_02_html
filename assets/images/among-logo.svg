@@ -1,0 +1,22 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300" width="300" height="300">
+	<title>Among Logo</title>
+	<style>
+		tspan { white-space:pre } 
+		.s0 { fill: #808080 } 
+		.t1 { font-size: 24px;fill: #000000;font-weight: 400;font-family: "DejaVuSans", "DejaVu Sans" } 
+	</style>
+	<path id="Forma 1" d="m88 52h132v137h-132z"/>
+	<path id="Forma 2" class="s0" d="m108 71h89v37h-89z"/>
+	<path id="Forma 3" d="m89 186h35v29h-35z"/>
+	<path id="Forma 4" d="m179 184h39v30h-39z"/>
+	<path id="Forma 5" d="m251 232h3v1h-3z"/>
+	<path id="Forma 6" d="m181 187h39v29h-39z"/>
+	<text id="  AMONG" style="transform: matrix(1,0,0,1,88,225)" >
+		<tspan x="0" y="18.2" class="t1"> </tspan><tspan  y="18.2" class="t1"> </tspan><tspan  y="18.2" class="t1">A</tspan><tspan  y="18.2" class="t1">M</tspan><tspan  y="18.2" class="t1">O</tspan><tspan  y="18.2" class="t1">N</tspan><tspan  y="18.2" class="t1">G</tspan><tspan  y="18.2" class="t1">
+</tspan>
+	</text>
+	<text id="" style="transform: matrix(1,0,0,1,365,-102)" >
+	</text>
+	<text id="Text layer 9" style="transform: matrix(1,0,0,1,-142,-4)" >
+	</text>
+</svg>
